@@ -1,5 +1,8 @@
+require 'pry'
+
 def roll_call_dwarves(names)
   i = 0
+  binding.pry
   names.each {|name| puts "#{i}. #{name}"}
   i += 1
 end
